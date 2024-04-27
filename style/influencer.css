@@ -1,0 +1,141 @@
+/* css fonst links start*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* css fonst links end */
+/* font-family: "Poppins", sans-serif; */
+/* root  */
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* shared style */
+.text-gray {
+    margin: 25px 114px 25px 0;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+.btn-primary {
+    word-spacing: 5px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px;
+}
+
+/* header start */
+header {
+    padding: 20px 250px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.menu {}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li:not(:last-child) {
+    padding-right: 40px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+/* header end */
+/* banner start */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 250px;
+
+}
+
+.banner-content {
+    padding-right: 190px;
+}
+
+.banner-title {
+    margin: 10px 0;
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+/* banner end */
+/* brand section start */
+.brand {
+    margin: 0 50px;
+    padding: 40px 0 40px;
+    border-top: 1px solid #7a7a7a;
+    border-bottom: 1px solid #7a7a7a;
+    margin: 70px 220px 80px 220px;
+
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand-logos img {}
+
+/* brand section end */
+/* popular section start */
+.popular {
+    display: flex;
+}
+
+.popular-title {
+    text-align: center;
+}
+
+.popular-card {}
+
+.card-1st {}
+
+.card-header {
+    margin: 10px 0;
+    font-size: 28px;
+    font-weight: 300;
+    color: #18191F;
+    line-height: 40px;
+}
+
+.card-price {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin: 0px 0 -12px 0;
+}
+
+.card-2nd {
+    width: 70px;
+}
+
+.card-description {
+    margin-top: -12px;
+}
+
+/* popular section end */
