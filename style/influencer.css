@@ -103,22 +103,44 @@ header {
 
 /* brand section end */
 /* popular section start */
-.popular {
-    display: flex;
-}
+.popular {}
 
 .popular-title {
     text-align: center;
+    font-size: 30px;
+    font-weight: 600;
 }
 
-.popular-card {}
+.card-start {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 0 200px;
+}
 
-.card-1st {}
+.popular-card {
+    width: 347px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 10px;
+}
+
+.card-1st {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
 
 .card-header {
     margin: 10px 0;
     font-size: 28px;
-    font-weight: 300;
+    font-weight: 600;
     color: #18191F;
     line-height: 40px;
 }
