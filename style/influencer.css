@@ -160,4 +160,81 @@ header {
     margin-top: -12px;
 }
 
+.btn-see {
+    text-align: right;
+    margin: 0 328px;
+    padding: 20px;
+}
+
+.btn-seemore {
+    border: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E02C6D;
+    background-color: #fff;
+}
+
 /* popular section end */
+/* feature section start */
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    margin: 108px 0;
+    padding: 0 350px;
+}
+
+.feature-imge {}
+
+.feature-imge img {}
+
+.feature-content {}
+
+.feature-content h3 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+    margin: 0;
+}
+
+.btn-join {
+    border-radius: 0;
+}
+
+/* feature section end */
+/* footer start */
+footer {
+    text-align: center;
+    background-color: #0a0826;
+    padding: 70px 0;
+}
+
+.footer-content {}
+
+.footer-content h4 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-content h6 {
+    margin: 10px 0 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-content p {
+    margin: -9px 0 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.social-icon {}
+
+.social-icon img {}
+
+/* footer end */
